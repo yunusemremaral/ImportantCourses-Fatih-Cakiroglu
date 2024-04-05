@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    var product = new Product() { Id = 1, Name = "Kalem 1", Price = 100, Stock = 200 };
+}
+@section Css
+{
+
+<style>
+
+</style>
+
+}
+@section Scripts
+{
+  
+
+
+}
+<div class="row">
+    <div class="col-md-4">
+        <partial name="~/PartialViews/_ProductListPartialView.cshtml" model="@ViewBag.productListPartialViewModel" />
+
+    </div>
+
+    <div class="col-md-4">
+
+        @*1.yol*@
+       @* @await Component.InvokeAsync("ProductList",new {type=1})*@
+
+      @* 2.yol*@
+       <vc:product-list type=1></vc:product-list>
+       
+        
+    </div>
+
+    <div class="col-md-4">
+
+
+        <italic>Asp.Net Core</italic>
+        <product-show  product="@product"></product-show>
+
+
+      
+
+    </div>
+    
+   
+
+</div>
+
+
+<div>
+      <img src="/images/car.jpg" />
+      
+        <thumbnail  image-src="/images/car.jpg"></thumbnail>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
