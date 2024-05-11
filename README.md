@@ -7,6 +7,8 @@
 ### 4-Entity Framework Core | Sıfırdan Zirveye
 ### 5-.Net Core Asenkron- Multithread Programlama (TASK,TPL,PLINQ)
 ### 6-AspNet Core Inversion Of Control(IoC) / Dependency Injection
+### 7-Redis Kursu  .Net 8 le tamamladım .
+
 
 
 

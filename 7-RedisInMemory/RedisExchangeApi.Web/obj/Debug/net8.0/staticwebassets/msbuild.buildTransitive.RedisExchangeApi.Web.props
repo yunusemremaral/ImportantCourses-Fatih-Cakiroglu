@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\RedisExchangeApi.Web.props" />
+</Project>
