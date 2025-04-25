@@ -21,7 +21,7 @@ namespace IdentityWebApp.ViewModels
         public string UserName { get; set; }
 
         [EmailAddress(ErrorMessage ="Email formatı yanlıştır.")]
-        [Required(ErrorMessage = "Email alanı boş bırakılamaz.")]
+        [Required(ErrorMessage = "Email alanı boş bırakılamayacak.")]
         [Display(Name = "Email :")]
         public string Email { get; set; }
 

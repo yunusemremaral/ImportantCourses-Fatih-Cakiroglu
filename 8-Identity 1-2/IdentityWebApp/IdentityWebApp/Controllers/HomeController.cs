@@ -80,21 +80,11 @@ public class HomeController : Controller
         }
 
 
-
-        ModelState.AddModelErrorList(new List<string>() { $"Email veya þifre yanlýþ", $"Baþarýsýz giriþ sayýsý = {await _UserManager.GetAccessFailedCountAsync(hasUser)}" });
-
-
-
+        ModelState.AddModelErrorList(new List<string>() { $"Email veya þifre yanlýþ", $"Baþarýsýz giriþ sayýsý = " +
+            $"{await _UserManager.GetAccessFailedCountAsync(hasUser)}" });
         return View();
 
-
-
-
-
-
-
     }
-
 
 
     [HttpPost]
@@ -119,7 +109,17 @@ public class HomeController : Controller
 
         return View();
 
+
+
+
+
+
+
+
     }
+
+
+
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
