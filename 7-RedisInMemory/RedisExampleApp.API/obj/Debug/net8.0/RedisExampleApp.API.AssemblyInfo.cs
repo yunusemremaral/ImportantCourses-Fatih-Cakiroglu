@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedisExampleApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29944c6b8e7fc5e26a634974355a182b4cbc9816")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedisExampleApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedisExampleApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
