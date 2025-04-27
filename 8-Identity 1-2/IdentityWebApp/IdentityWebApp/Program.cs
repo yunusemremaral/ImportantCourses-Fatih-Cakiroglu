@@ -4,6 +4,9 @@ using IdentityWebApp.Extensions;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using IdentityWebApp.Extensions;
 using IdentityWebApp.Models;
+using IdentityWebApp.OptionsModels;
+using IdentityWebApp.Services;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +18,14 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
 });
 
-builder.Services.AddIdentityWithExt();
+builder.Services.Configure<SecurityStampValidatorOptions>(options =>
+{
+    options.ValidationInterval = TimeSpan.FromMinutes(30);
+});
 
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddIdentityWithExt();
+builder.Services.AddScoped<IEmailService, EmailService>();
 
 builder.Services.ConfigureApplicationCookie(opt =>
 {
@@ -29,9 +38,6 @@ builder.Services.ConfigureApplicationCookie(opt =>
     opt.ExpireTimeSpan = TimeSpan.FromDays(60);
     opt.SlidingExpiration = true;
 });
-
-
-
 
 var app = builder.Build();
 
@@ -50,8 +56,6 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-
-
 app.MapControllerRoute(
     name: "areas",
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
@@ -59,8 +63,5 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
-
 
 app.Run();
