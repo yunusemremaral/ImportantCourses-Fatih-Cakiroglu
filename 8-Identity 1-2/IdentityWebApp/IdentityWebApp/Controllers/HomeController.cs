@@ -50,6 +50,11 @@ namespace AspNetCoreIdentityApp.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> SignIn(SignInViewModel model, string? returnUrl = null)
         {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+
             returnUrl ??= Url.Action("Index", "Home");
 
             var hasUser = await _UserManager.FindByEmailAsync(model.Email);
@@ -119,6 +124,7 @@ namespace AspNetCoreIdentityApp.Web.Controllers
             string passwordResestToken = await _UserManager.GeneratePasswordResetTokenAsync(hasUser);
 
             var passwordResetLink = Url.Action("ResetPassword", "Home", new { userId = hasUser.Id, Token = passwordResestToken }, HttpContext.Request.Scheme);
+            //örnek link https://localhost:7006?userId=12213&token=aajsdfjdsalkfjkdsfj
 
             await _emailService.SendResetPasswordEmail(passwordResetLink!, hasUser.Email!);
 
