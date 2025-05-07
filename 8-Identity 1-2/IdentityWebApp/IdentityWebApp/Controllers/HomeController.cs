@@ -5,9 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using IdentityWebApp.Extensions;
 using IdentityWebApp.Services;
-using IdentityWebApp.Extensions;
-using IdentityWebApp.Models;
-using IdentityWebApp.ViewModels;
 
 namespace AspNetCoreIdentityApp.Web.Controllers
 {

@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\areas\\admin\\views\\home\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\areas\\admin\\views\\home\\userlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\areas\\admin\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\areas\\admin\\models\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserList.cshtml",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Areas\\Admin\\Views\\Home\\UserList.cshtml",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Areas\\Admin\\Views\\Home\\UserList.cshtml",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Areas\\Admin\\Views\\Home\\UserList.cshtml",
-              "RelativeToolTip": "IdentityWebApp\\Areas\\Admin\\Views\\Home\\UserList.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T17:51:37.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "IdentityWebApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T17:51:43.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Areas\\Admin\\Models\\UserViewModel.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Areas\\Admin\\Models\\UserViewModel.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Areas\\Admin\\Models\\UserViewModel.cs",
-              "RelativeToolTip": "IdentityWebApp\\Areas\\Admin\\Models\\UserViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:52:04.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\MemberController.cs*",
-              "RelativeToolTip": "IdentityWebApp\\Controllers\\MemberController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T17:52:22.394Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
