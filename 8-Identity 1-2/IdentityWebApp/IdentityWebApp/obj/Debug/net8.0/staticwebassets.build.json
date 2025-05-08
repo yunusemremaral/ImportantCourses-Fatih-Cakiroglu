@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m4LqtjtLgjLtgq3lxdb8TBmV8swOnKDEiMv3qCCzYow=",
+  "Hash": "fsyXrKx9miGLgBas50dczXElriWVCZ2rBIx0nvQc0KY=",
   "Source": "IdentityWebApp",
   "BasePath": "_content/IdentityWebApp",
   "Mode": "Default",
@@ -1317,6 +1317,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg",
+      "SourceId": "IdentityWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\",
+      "BasePath": "_content/IdentityWebApp",
+      "RelativePath": "userpictures/1357d32a-7aa4-48d0-9510-455ea38c1858#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p5zvp3he98",
+      "Integrity": "QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg",
+      "SourceId": "IdentityWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\",
+      "BasePath": "_content/IdentityWebApp",
+      "RelativePath": "userpictures/a96dc58d-df93-4d57-bf36-4c621c2dc846#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p5zvp3he98",
+      "Integrity": "QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png",
+      "SourceId": "IdentityWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\",
+      "BasePath": "_content/IdentityWebApp",
+      "RelativePath": "userpictures/c4a48a6b-66ff-4192-8aef-bcefb8bda31f#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ufnsk5av5d",
+      "Integrity": "qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png"
+    },
+    {
+      "Identity": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\default_user_picture.jpg",
+      "SourceId": "IdentityWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\",
+      "BasePath": "_content/IdentityWebApp",
+      "RelativePath": "userpictures/default_user_picture#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p5zvp3he98",
+      "Integrity": "QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\default_user_picture.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png",
+      "SourceId": "IdentityWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\",
+      "BasePath": "_content/IdentityWebApp",
+      "RelativePath": "userpictures/efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ufnsk5av5d",
+      "Integrity": "qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png"
     }
   ],
   "Endpoints": [
@@ -6401,6 +6506,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/1357d32a-7aa4-48d0-9510-455ea38c1858.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/1357d32a-7aa4-48d0-9510-455ea38c1858.p5zvp3he98.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p5zvp3he98"
+        },
+        {
+          "Name": "label",
+          "Value": "userpictures/1357d32a-7aa4-48d0-9510-455ea38c1858.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/a96dc58d-df93-4d57-bf36-4c621c2dc846.p5zvp3he98.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p5zvp3he98"
+        },
+        {
+          "Name": "label",
+          "Value": "userpictures/a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/c4a48a6b-66ff-4192-8aef-bcefb8bda31f.ufnsk5av5d.png",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufnsk5av5d"
+        },
+        {
+          "Name": "label",
+          "Value": "userpictures/c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/default_user_picture.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\default_user_picture.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/default_user_picture.p5zvp3he98.jpg",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\default_user_picture.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p5zvp3he98"
+        },
+        {
+          "Name": "label",
+          "Value": "userpictures/default_user_picture.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwdINGgoFB2/2ledwi4Lg2iFH0M/1UoCKpOW6XNp78A="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs="
+        }
+      ]
+    },
+    {
+      "Route": "userpictures/efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.ufnsk5av5d.png",
+      "AssetFile": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jan 2023 03:40:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufnsk5av5d"
+        },
+        {
+          "Name": "label",
+          "Value": "userpictures/efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qo0j+RjFFepF/p4ekHDvfxNmrkXf5UFxwNqV31YhQbs="
         }
       ]
     }

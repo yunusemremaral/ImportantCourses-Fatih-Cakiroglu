@@ -1,5 +1,6 @@
 ﻿using IdentityWebApp.Areas.Admin.Models;
 using IdentityWebApp.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -7,10 +8,10 @@ using Microsoft.EntityFrameworkCore;
 namespace IdentityWebApp.Areas.Admin.Controllers
 {
 
+    [Authorize(Roles = "admin")]
     [Area("Admin")]
     public class HomeController : Controller
     {
-
         private readonly UserManager<AppUser> _userManager;
 
         public HomeController(UserManager<AppUser> userManager)
@@ -22,7 +23,6 @@ namespace IdentityWebApp.Areas.Admin.Controllers
         {
             return View();
         }
-
 
         public async Task<IActionResult> UserList()
         {
@@ -39,3 +39,4 @@ namespace IdentityWebApp.Areas.Admin.Controllers
         }
     }
 }
+

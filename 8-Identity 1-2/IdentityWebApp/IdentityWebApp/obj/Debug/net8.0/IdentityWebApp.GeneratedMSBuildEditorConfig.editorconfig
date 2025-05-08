@@ -36,6 +36,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Areas/Admin/Views/Roles/AssignRoleToUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcQXNzaWduUm9sZVRvVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Areas/Admin/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Areas/Admin/Views/Roles/RoleCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcUm9sZUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Areas/Admin/Views/Roles/RoleUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sZXNcUm9sZVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Areas/Admin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -74,6 +90,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Views/Member/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/imgoz/Documents/GitHub/ImportantCourses-Fatih-Cakiroglu/8-Identity 1-2/IdentityWebApp/IdentityWebApp/Views/Member/Index.cshtml]

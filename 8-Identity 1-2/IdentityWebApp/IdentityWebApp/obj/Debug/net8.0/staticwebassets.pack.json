@@ -245,6 +245,26 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg",
+      "PackagePath": "staticwebassets\\userpictures\\1357d32a-7aa4-48d0-9510-455ea38c1858.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg",
+      "PackagePath": "staticwebassets\\userpictures\\a96dc58d-df93-4d57-bf36-4c621c2dc846.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png",
+      "PackagePath": "staticwebassets\\userpictures\\c4a48a6b-66ff-4192-8aef-bcefb8bda31f.png"
+    },
+    {
+      "Id": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\default_user_picture.jpg",
+      "PackagePath": "staticwebassets\\userpictures\\default_user_picture.jpg"
+    },
+    {
+      "Id": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\wwwroot\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png",
+      "PackagePath": "staticwebassets\\userpictures\\efebcb8d-ace4-4a2e-b4e4-48dfe1b2bf56.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.IdentityWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

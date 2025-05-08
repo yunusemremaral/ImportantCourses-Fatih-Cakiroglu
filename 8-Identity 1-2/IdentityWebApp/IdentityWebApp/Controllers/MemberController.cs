@@ -1,5 +1,4 @@
-﻿using IdentityWebApp.Areas.Admin.Models;
-using IdentityWebApp.Extensions;
+﻿using IdentityWebApp.Extensions;
 using IdentityWebApp.Models;
 using IdentityWebApp.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -29,12 +28,10 @@ namespace IdentityWebApp.Controllers
         {
             var currentUser = (await _userManager.FindByNameAsync(User.Identity!.Name!))!;
 
-            var userViewModel = new Areas.Admin.Models.UserViewModel
+            var userViewModel = new UserViewModel
             {
                 Email = currentUser.Email,
-                Name = currentUser.UserName,
-                PhoneNumber = currentUser.PhoneNumber,
-                Picture = currentUser.Picture
+                UserName = currentUser.UserName,
             };
 
             return View(userViewModel);
@@ -160,6 +157,18 @@ namespace IdentityWebApp.Controllers
             };
 
             return View(userEditViewModel);
+        }
+
+        public IActionResult AccessDenied(string ReturnUrl)
+        {
+            string message = string.Empty;
+
+
+
+            message = "Bu sayfayı görmeye yetkiniz yoktur. Yetki almak için  yöneticiniz ile görüşebilirsiniz.";
+
+            ViewBag.message = message;
+            return View();
         }
     }
 }
