@@ -8,6 +8,10 @@ using IdentityWebApp.OptionsModels;
 using IdentityWebApp.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.FileProviders;
+using IdentityWebApp.ClaimProviders;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
+using AspNetCoreIdentityApp.Web.Requirements;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +33,37 @@ builder.Services.AddSingleton<IFileProvider>(new PhysicalFileProvider(Directory.
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 builder.Services.AddIdentityWithExt();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IClaimsTransformation, UserClaimProvider>();
+builder.Services.AddScoped<IAuthorizationHandler, ExchangeExpireRequirementHandler>();
+builder.Services.AddScoped<IAuthorizationHandler, ViolenceRequirementHandler>();
+
+builder.Services.AddAuthorization(options =>
+{
+
+    options.AddPolicy("AnkaraPolicy", policy =>
+    {
+        policy.RequireClaim("city", "ankara");
+
+
+    });
+
+    options.AddPolicy("ExchangePolicy", policy =>
+    {
+        policy.AddRequirements(new ExchangeExpireRequirement());
+
+
+    });
+
+
+    options.AddPolicy("ViolencePolicy", policy =>
+    {
+        policy.AddRequirements(new ViolenceRequirement() { ThresholdAge = 18 });
+
+
+    });
+
+
+});
 
 builder.Services.ConfigureApplicationCookie(opt =>
 {

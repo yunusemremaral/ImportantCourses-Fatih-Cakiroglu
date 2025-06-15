@@ -5,11 +5,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis.Completion;
 using Microsoft.Extensions.FileProviders;
+using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace IdentityWebApp.Controllers
 {
-
     [Authorize]
     public class MemberController : Controller
     {
@@ -26,12 +28,17 @@ namespace IdentityWebApp.Controllers
 
         public async Task<IActionResult> Index()
         {
+
+
+
             var currentUser = (await _userManager.FindByNameAsync(User.Identity!.Name!))!;
 
             var userViewModel = new UserViewModel
             {
                 Email = currentUser.Email,
                 UserName = currentUser.UserName,
+                PhoneNumber = currentUser.PhoneNumber,
+                PictureUrl = currentUser.Picture
             };
 
             return View(userViewModel);
@@ -142,7 +149,24 @@ namespace IdentityWebApp.Controllers
 
             await _userManager.UpdateSecurityStampAsync(currentUser);
             await _signInManager.SignOutAsync();
-            await _signInManager.SignInAsync(currentUser, true);
+
+
+            if (request.BirthDate.HasValue)
+            {
+                await _signInManager.SignInWithClaimsAsync(currentUser, true, new[] { new Claim("birthdate", currentUser.BirthDate!.Value.ToString()) });
+            }
+
+            else
+            {
+                await _signInManager.SignInAsync(currentUser, true);
+            }
+
+
+
+
+
+
+
 
             TempData["SuccessMessage"] = "Üye bilgileri başarıyla değiştirilmiştir";
 
@@ -157,6 +181,51 @@ namespace IdentityWebApp.Controllers
             };
 
             return View(userEditViewModel);
+        }
+
+
+
+        [HttpGet]
+        public IActionResult Claims()
+        {
+
+
+
+            var userClaimList = User.Claims.Select(x => new ClaimViewModel()
+            {
+                Issuer = x.Issuer,
+                Type = x.Type,
+                Value = x.Value
+            }).ToList();
+
+            return View(userClaimList);
+
+        }
+
+
+        [Authorize(Policy = "AnkaraPolicy")]
+        [HttpGet]
+        public IActionResult AnkaraPage()
+        {
+
+            return View();
+
+        }
+
+        [Authorize(Policy = "ExchangePolicy")]
+        [HttpGet]
+        public IActionResult ExchangePage()
+        {
+            return View();
+
+        }
+
+
+        [Authorize(Policy = "ViolencePolicy")]
+        [HttpGet]
+        public IActionResult ViolencePage()
+        {
+            return View();
         }
 
         public IActionResult AccessDenied(string ReturnUrl)
