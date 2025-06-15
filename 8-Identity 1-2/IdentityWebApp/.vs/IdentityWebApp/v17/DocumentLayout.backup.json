@@ -3,72 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Views\\Order\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\permissions\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\permissions\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\requirements\\violencerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\requirements\\violencerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\ClaimProvider\\UserClaimProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\claimprovider\\userclaimprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\claimprovider\\userclaimprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\seeds\\permissionseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\seeds\\permissionseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\requirements\\exchangeexpirerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\requirements\\exchangeexpirerequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\viewmodels\\claimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\viewmodels\\claimviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\8-identity 1-2\\identitywebapp\\identitywebapp\\viewmodels\\forgetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF4CC13A-5565-4CB7-8237-5FC0D9BAC0A1}|IdentityWebApp\\IdentityWebApp.csproj|solutionrelative:identitywebapp\\viewmodels\\forgetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\MemberController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,8 +36,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Permissions\\Permissions.cs",
+              "RelativeDocumentMoniker": "IdentityWebApp\\Permissions\\Permissions.cs",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Permissions\\Permissions.cs",
+              "RelativeToolTip": "IdentityWebApp\\Permissions\\Permissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T20:42:47.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PermissionSeed.cs",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Seeds\\PermissionSeed.cs",
+              "RelativeDocumentMoniker": "IdentityWebApp\\Seeds\\PermissionSeed.cs",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Seeds\\PermissionSeed.cs",
+              "RelativeToolTip": "IdentityWebApp\\Seeds\\PermissionSeed.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T20:44:37.997Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -88,230 +72,61 @@
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Program.cs",
               "ToolTip": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Program.cs",
               "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:35:23.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Program.cs",
-              "RelativeToolTip": "IdentityWebApp\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:35:51.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "IdentityWebApp\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAADwv8sAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:16:07.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ViolenceRequirement.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Requirements\\ViolenceRequirement.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Requirements\\ViolenceRequirement.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Requirements\\ViolenceRequirement.cs",
-              "RelativeToolTip": "IdentityWebApp\\Requirements\\ViolenceRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T20:10:03.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserClaimProvider.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ClaimProvider\\UserClaimProvider.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\ClaimProvider\\UserClaimProvider.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ClaimProvider\\UserClaimProvider.cs",
-              "RelativeToolTip": "IdentityWebApp\\ClaimProvider\\UserClaimProvider.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:23:26.099Z",
+              "WhenOpened": "2025-06-15T20:49:30.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserClaimProvider.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\ClaimProvider\\UserClaimProvider.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\ClaimProvider\\UserClaimProvider.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\ClaimProvider\\UserClaimProvider.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\ClaimProvider\\UserClaimProvider.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Program.cs",
+              "RelativeToolTip": "IdentityWebApp\\Program.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAswEAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T20:11:51.671Z",
+              "WhenOpened": "2025-06-15T20:52:41.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "IdentityWebApp\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "IdentityWebApp\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T20:56:23.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "IdentityWebApp\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "IdentityWebApp\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T21:02:17.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "IdentityWebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwFgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:23:32.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExchangeExpireRequirement.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Requirements\\ExchangeExpireRequirement.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Requirements\\ExchangeExpireRequirement.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Requirements\\ExchangeExpireRequirement.cs",
-              "RelativeToolTip": "IdentityWebApp\\Requirements\\ExchangeExpireRequirement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:49:47.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\appsettings.json",
-              "RelativeDocumentMoniker": "IdentityWebApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\appsettings.json",
-              "RelativeToolTip": "IdentityWebApp\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-15T19:47:59.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:44:00.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppUser.cs",
-              "RelativeToolTip": "IdentityWebApp\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:18:21.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClaimViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ViewModels\\ClaimViewModel.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\ViewModels\\ClaimViewModel.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ViewModels\\ClaimViewModel.cs",
-              "RelativeToolTip": "IdentityWebApp\\ViewModels\\ClaimViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:17:42.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "IdentityWebApp\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:18:00.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\Gender.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Models\\Gender.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\Gender.cs",
-              "RelativeToolTip": "IdentityWebApp\\Models\\Gender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:18:29.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "IdentityWebApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:18:25.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AppRole.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppRole.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\Models\\AppRole.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\Models\\AppRole.cs",
-              "RelativeToolTip": "IdentityWebApp\\Models\\AppRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:18:09.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ForgetPasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ViewModels\\ForgetPasswordViewModel.cs",
-              "RelativeDocumentMoniker": "IdentityWebApp\\ViewModels\\ForgetPasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\8-Identity 1-2\\IdentityWebApp\\IdentityWebApp\\ViewModels\\ForgetPasswordViewModel.cs",
-              "RelativeToolTip": "IdentityWebApp\\ViewModels\\ForgetPasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:17:38.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAANEAAAAAAAAAAADwv/IAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:16:00.075Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\imgoz\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Desktop\\UdemyAspNetCoreIdentity-master\\AspNetCoreIdentityApp.Web\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T21:02:28.563Z",
               "EditorCaption": ""
             }
           ]
