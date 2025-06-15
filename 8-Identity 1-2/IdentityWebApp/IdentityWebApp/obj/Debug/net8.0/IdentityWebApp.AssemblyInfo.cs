@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdentityWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4d15396ddc85bfb29c2a9334e460ead5fa4bf4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88bfe30d4922f3bd3fba7faeb2f9cf53f372c54")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdentityWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdentityWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

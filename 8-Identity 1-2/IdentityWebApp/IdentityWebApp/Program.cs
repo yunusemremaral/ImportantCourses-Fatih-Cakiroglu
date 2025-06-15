@@ -12,6 +12,7 @@ using IdentityWebApp.ClaimProviders;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using AspNetCoreIdentityApp.Web.Requirements;
+using AspNetCoreIdentityApp.Web.PermissionsRoot;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -61,7 +62,41 @@ builder.Services.AddAuthorization(options =>
 
 
     });
+    options.AddPolicy("OrderPermissionReadAndDelete", policy =>
+    {
 
+        policy.RequireClaim("permission", Permissions.Order.Read);
+        policy.RequireClaim("permission", Permissions.Order.Delete);
+        policy.RequireClaim("permission", Permissions.Stock.Delete);
+
+    });
+
+
+
+    options.AddPolicy("Permissions.Order.Read", policy =>
+    {
+
+        policy.RequireClaim("permission", Permissions.Order.Read);
+
+
+    });
+
+    options.AddPolicy("Permissions.Order.Delete", policy =>
+    {
+
+        policy.RequireClaim("permission", Permissions.Order.Delete);
+
+
+    });
+
+
+    options.AddPolicy("Permissions.Stock.Delete", policy =>
+    {
+
+        policy.RequireClaim("permission", Permissions.Stock.Delete);
+
+
+    });
 
 });
 
