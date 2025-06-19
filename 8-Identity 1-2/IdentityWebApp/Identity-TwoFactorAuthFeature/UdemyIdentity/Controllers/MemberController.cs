@@ -280,46 +280,31 @@ namespace UdemyIdentity.Controllers
             switch (authenticatorVM.TwoFactorType)
             {
                 case TwoFactor.None:
-
                     CurrentUser.TwoFactorEnabled = false;
                     CurrentUser.TwoFactor = (sbyte)TwoFactor.None;
-
                     TempData["message"] = "İki adımlı kimlik doğrulama tipiniz hiçbiri olarak belirlenmiştir.";
-
                     break;
 
                 case TwoFactor.Phone:
-
                     if (string.IsNullOrEmpty(CurrentUser.PhoneNumber))
                     {
                         ViewBag.warning = "Telefon numaranız belirtilmemiştir. Lütfen kullanıcı güncelleme sayfasından telefon numaranızı belirtiniz.";
                     }
-
                     CurrentUser.TwoFactorEnabled = true;
-
                     CurrentUser.TwoFactor = (sbyte)TwoFactor.Phone;
                     TempData["message"] = "İki adımlı kimlik doğrulama tipimiz telefon olarak belirlenmiştir";
-
-                    break;
-
+                   break;
                 case TwoFactor.Email:
-
                     CurrentUser.TwoFactorEnabled = true;
                     CurrentUser.TwoFactor = (sbyte)TwoFactor.Email;
                     TempData["message"] = "İki adımlı kimlik doğrulama tipimiz email olarak belirlenmiştir";
-
                     break;
-
                 case TwoFactor.MicrosoftGoogle:
-
                     return RedirectToAction("TwoFactorWithAuthenticator");
-
                 default:
                     break;
             }
-
             await userManager.UpdateAsync(CurrentUser);
-
             return View(authenticatorVM);
         }
     }
