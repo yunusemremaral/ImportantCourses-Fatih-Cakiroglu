@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\9-Net 8 APIWEB-Best Practice\\NetCore-8.0-API-WEB-BESTPRACTICES\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C2AC39-13F0-494A-BBB5-0EF63251326B}|Repositories\\App.Repositories.csproj|c:\\users\\imgoz\\documents\\github\\importantcourses-fatih-cakiroglu\\9-net 8 apiweb-best practice\\netcore-8.0-api-web-bestpractices\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C2AC39-13F0-494A-BBB5-0EF63251326B}|Repositories\\App.Repositories.csproj|solutionrelative:repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\9-Net 8 APIWEB-Best Practice\\NetCore-8.0-API-WEB-BESTPRACTICES\\Repositories\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\imgoz\\Documents\\GitHub\\ImportantCourses-Fatih-Cakiroglu\\9-Net 8 APIWEB-Best Practice\\NetCore-8.0-API-WEB-BESTPRACTICES\\Repositories\\AppDbContext.cs",
+              "RelativeToolTip": "Repositories\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:04:50.265Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
