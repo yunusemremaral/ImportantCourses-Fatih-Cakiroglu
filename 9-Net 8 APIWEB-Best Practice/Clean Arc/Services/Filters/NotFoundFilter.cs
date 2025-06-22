@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace App.Services.Filters
 {
-    public class NotFoundFilter<T, TId>(IGenericRepository<T, TId> genericRepository)  // Filter ile  tekrar eden yerleri refactor ediyoruz .
+    public class NotFoundFilter<T, TId>(IGenericRepository<T, TId> genericRepository)
         : Attribute, IAsyncActionFilter where T : class where TId : struct
     {
         public async Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)

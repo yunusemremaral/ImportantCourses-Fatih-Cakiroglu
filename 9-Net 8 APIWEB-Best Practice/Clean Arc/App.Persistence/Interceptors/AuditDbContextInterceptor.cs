@@ -1,11 +1,10 @@
-﻿using System.Security.Cryptography.X509Certificates;
-using Microsoft.AspNetCore.Mvc.Diagnostics;
+﻿using App.Domain.Entities.Common;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace App.Repositories.Interceptors
+namespace App.Persistence.Interceptors
 {
-    public class AuditDbContextInterceptor : SaveChangesInterceptor  // Created ve Updated kısımlarını otomatik dolduruyoruz ! 
+    public class AuditDbContextInterceptor : SaveChangesInterceptor
     {
         private static readonly Dictionary<EntityState, Action<DbContext, IAuditEntity>> Behaviors = new()
         {

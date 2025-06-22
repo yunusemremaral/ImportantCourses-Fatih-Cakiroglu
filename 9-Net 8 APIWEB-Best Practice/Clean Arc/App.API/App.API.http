@@ -1,4 +1,4 @@
-  @App.API_HostAddress = https://localhost:7006
+@App.API_HostAddress = https://localhost:7006
 
 ### Get all products
 GET {{App.API_HostAddress}}/api/products

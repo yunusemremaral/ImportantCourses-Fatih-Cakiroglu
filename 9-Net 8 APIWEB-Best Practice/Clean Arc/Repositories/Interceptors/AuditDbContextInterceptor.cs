@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace App.Repositories.Interceptors
 {
-    public class AuditDbContextInterceptor : SaveChangesInterceptor  // Created ve Updated kısımlarını otomatik dolduruyoruz ! 
+    public class AuditDbContextInterceptor : SaveChangesInterceptor
     {
         private static readonly Dictionary<EntityState, Action<DbContext, IAuditEntity>> Behaviors = new()
         {
