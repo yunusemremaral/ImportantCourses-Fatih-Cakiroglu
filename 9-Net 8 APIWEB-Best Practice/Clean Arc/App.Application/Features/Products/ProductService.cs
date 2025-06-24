@@ -146,7 +146,7 @@ namespace App.Application.Features.Products
             return ServiceResult<CreateProductResponse>.SuccessAsCreated(new CreateProductResponse(product.Id),
                 $"api/products/{product.Id}"
             );
-        }
+        } 
 
         public async Task<ServiceResult> UpdateAsync(int id, UpdateProductRequest request)
         {
