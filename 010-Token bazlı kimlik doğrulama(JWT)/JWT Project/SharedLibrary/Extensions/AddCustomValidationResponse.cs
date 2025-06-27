@@ -17,8 +17,7 @@ namespace SharedLibrary.Extensions
             {
                 options.InvalidModelStateResponseFactory = context =>
                 {
-                    var errors = context.ModelState.Values.Where(x => x.Errors.Count > 0)
-                    .SelectMany(x => x.Errors).Select(x => x.ErrorMessage);
+                    var errors = context.ModelState.Values.Where(x => x.Errors.Count > 0).SelectMany(x => x.Errors).Select(x => x.ErrorMessage);
 
                     ErrorDto errorDto = new ErrorDto(errors.ToList(), true);
 
