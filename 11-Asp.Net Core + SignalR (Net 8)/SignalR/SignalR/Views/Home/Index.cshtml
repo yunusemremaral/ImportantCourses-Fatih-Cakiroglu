@@ -1,11 +1,56 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-@section Scripts{
-<script src="~/js/signalr-client.js"></script>
+@section Scripts {
+    <script src="~/js/signalr-client.js"></script>
 }
-<h1>Connected Count</h1> 
-<span id="connected-client-count">Tüm Clientlere Gönder</span>
 
-<button id="btn-send-message-all-client">Tüm Clientlere Gönder</button>
-<button id="btn-send-message-caller-client">İstek Yapan Cliente Gönder</button>
+<div class="container mt-5">
+    <div id="span-connectionid" class="alert alert-primary text-dark fw-bold">
+        Bağlantı ID: <span id="connection-id-text">Bağlanıyor...</span>
+    </div>
+
+    <h1 class="mb-4 text-primary">Bağlı Client Sayısı: <span id="connected-client-count" class="badge bg-info text-dark p-2">0</span></h1>
+
+    <div class="mb-4 d-flex flex-wrap align-items-center gap-2">
+        <button id="btn-send-message-all-client" class="btn btn-success">
+            Tüm Clientlere Gönder
+        </button>
+        <button id="btn-send-message-caller-client" class="btn btn-primary">
+            İstek Yapan Cliente Gönder
+        </button>
+        <button id="btn-send-message-other-client" class="btn btn-warning text-white">
+            Diğer Clientlara Gönder
+        </button>
+
+        <input type="text" id="input-connectionid" class="form-control w-auto" style="min-width: 200px;" placeholder="Client ID girin">
+
+        <button id="btn-send-message-spesific-client" class="btn btn-danger text-white">
+            Spesifik Client'a Gönder
+        </button>
+    </div>
+
+    <!-- Gelen mesajların gösterileceği kutu -->
+    <div id="message-container" class="mt-4" style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+        <h5>Gelen Mesajlar</h5>
+        <div id="messages-list"></div>
+    </div>
+        <!-- Grup adı girişi -->
+    <input type="text" id="input-groupname" class="form-control w-auto" style="min-width: 200px;" placeholder="Grup adı girin">
+
+    <!-- Gruba katıl -->
+    <button id="btn-join-group" class="btn btn-info text-white">
+        Gruba Katıl
+    </button>
+
+    <!-- Gruptan çık -->
+    <button id="btn-leave-group" class="btn btn-secondary text-white">
+        Gruptan Çık
+    </button>
+
+    <!-- Gruba mesaj gönder -->
+    <button id="btn-send-message-group" class="btn btn-dark text-white">
+        Gruba Mesaj Gönder
+    </button>
+
+</div>
