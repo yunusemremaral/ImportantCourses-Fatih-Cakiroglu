@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
 
-    // Hub metotları ve client event isimleri
-    const BroadcastMessageToAllClientHubMethod = "BroadcastMessageToAllClient";
+    // --- Hub metod ve client event isimleri ---
+    const BroadcastMessageToAllClient = "BroadcastMessageToAllClient";
     const ReceiveMessageForAllClientClientMethodCall = "ReceiveMessageForAllClient";
 
     const BroadcastMessageToCallerClient = "BroadcastMessageToCallerClient";
@@ -18,90 +18,90 @@
     const BroadcastMessageToGroup = "BroadcastMessageToGroup";
     const ReceiveMessageForGroup = "ReceiveMessageForGroup";
 
+    const BroadcastTypedMessageToAllClient = "BroadcastTypedMessageToAllClient";
+    const ReceiveTypedMessageForAllClient = "ReceiveTypedMessageForAllClient";
+
     const ReceiveConnectedClientCount = "ReceiveConnectedClientCount";
 
-    // SignalR bağlantısı oluşturma
+    // --- SignalR bağlantısı oluşturma ---
     const connection = new signalR.HubConnectionBuilder()
-        .withUrl("/exampleTypeSafeHub")
-        .configureLogging(signalR.LogLevel.Information)
+        .withUrl("/exampleTypeSafeHub")                  // Hub URL'si
+        .configureLogging(signalR.LogLevel.Information)  // Loglama seviyesi
         .build();
 
-    // Bağlantıyı başlatan fonksiyon
+    // --- Bağlantıyı başlatan fonksiyon ---
     function startConnection() {
         connection.start()
             .then(() => {
                 console.log("Hub ile bağlantı kuruldu");
                 $("#span-connectionid").html(`Connection Id: ${connection.connectionId}`);
 
-                // Gruptan çık ve tekrar gruba katılma örneği (opsiyonel, kaldırabilirsin)
+                // Örnek: Gruptan çık, tekrar gruba katıl
                 connection.invoke(LeaveGroup, "grup-adi")
                     .catch(err => console.warn("Gruptan çıkarken hata:", err));
 
                 connection.invoke(JoinGroup, "grup-adi")
                     .catch(err => console.warn("Gruba katılırken hata:", err));
 
-                // Grupta mesaj gönder (örnek)
+                // Örnek: Grupta mesaj gönder
                 connection.invoke(BroadcastMessageToGroup, "grup-adi", "Merhaba Grup!")
                     .catch(err => console.error("Gruba mesaj gönderme hatası:", err));
             })
             .catch(err => {
                 console.error("Bağlantı kurulamadı, tekrar deneniyor...", err);
-                setTimeout(() => startConnection(), 5000);
+                setTimeout(() => startConnection(), 5000);  // 5 sn sonra yeniden dene
             });
     }
 
-    // İlk bağlantı başlatılıyor
-    startConnection();
+    startConnection(); // Sayfa yüklenir yüklenmez bağlantı başlatılır
 
-    // Bağlı client sayısı span elemanı
-    const $connectedClientCount = $("#connected-client-count");
-
-    // Client sayısı güncellemesi dinleniyor
+    // --- Bağlı client sayısı güncellemesini dinle ---
     connection.on(ReceiveConnectedClientCount, (count) => {
-        $connectedClientCount.text(count);
+        $("#connected-client-count").text(count);
         console.log("Bağlı Client Sayısı:", count);
     });
 
-    // Tüm clientlara mesaj gönder butonu
+    // --- Tüm clientlara mesaj gönder ---
     $("#btn-send-message-all-client").click(() => {
         const message = "All Hello";
-
-        connection.invoke(BroadcastMessageToAllClientHubMethod, message)
+        connection.invoke(BroadcastMessageToAllClient, message)
             .catch(err => console.error("Tüm clientlara mesaj gönderme hatası:", err));
     });
 
-    // Tüm clientlardan mesaj dinle
+    // --- Tüm clientlardan mesaj dinle ---
     connection.on(ReceiveMessageForAllClientClientMethodCall, (message) => {
         console.log("Tüm clientlardan gelen mesaj:", message);
     });
+    //product dinle 
+    connection.on(ReceiveTypedMessageForAllClient, (product) => {
+        console.log("Tüm clientlardan gelen ürün:", product);
+    }); 
 
-    // Diğer clientlara mesaj gönder butonu
+    // --- Diğer clientlara mesaj gönder ---
     $("#btn-send-message-other-client").click(() => {
         const message = "Other Clients Hello";
-
         connection.invoke(BroadcastMessageToOtherClient, message)
             .catch(err => console.error("Diğer clientlara mesaj gönderme hatası:", err));
     });
 
-    // Diğer clientlardan mesaj dinle
+    // --- Diğer clientlardan mesaj dinle ---
     connection.on(ReceiveMessageForOtherClient, (message) => {
         console.log("Diğer clientlardan gelen mesaj:", message);
     });
 
-    // İstek yapan client'a mesaj gönder butonu
+    // --- İstek yapan client'a mesaj gönder ---
     $("#btn-send-message-caller-client").click(() => {
         const message = "Caller";
-
         connection.invoke(BroadcastMessageToCallerClient, message)
             .catch(err => console.error("Caller client mesaj gönderme hatası:", err));
     });
 
-    // Caller client mesaj dinleme
+    // --- Caller client mesajlarını dinle ---
     connection.on(ReceiveMessageForCallerClient, (message) => {
         console.log("Caller client'tan gelen mesaj:", message);
     });
 
-    // Spesifik client'a mesaj gönder butonu
+    // --- Spesifik client'a mesaj gönder ---
     $("#btn-send-message-spesific-client").click(() => {
         const targetConnectionId = $("#input-connectionid").val().trim();
         const message = "Spesifik client mesajı!";
@@ -116,19 +116,20 @@
             .catch(err => console.error("Spesifik client mesaj gönderim hatası:", err));
     });
 
-    // Spesifik client mesajlarını dinle
+    // --- Spesifik client mesajlarını dinle ---
     connection.on(ReceiveMessageForSpesificClient, (message) => {
         console.log("Spesifik client mesajı alındı:", message);
     });
 
-    // Grup mesajlarını dinle
+    // --- Grup mesajlarını dinle ---
     connection.on(ReceiveMessageForGroup, (message) => {
         console.log("Grup mesajı alındı:", message);
     });
-    // Grup ile ilgili elementler
+
+    // --- Grup işlemleri için DOM elemanları ---
     const $inputGroupName = $("#input-groupname");
 
-    // Gruba katılma
+    // --- Gruba katıl ---
     $("#btn-join-group").click(() => {
         const groupName = $inputGroupName.val().trim();
         if (!groupName) {
@@ -141,7 +142,7 @@
             .catch(err => console.error("Gruba katılma hatası:", err));
     });
 
-    // Gruptan çıkma
+    // --- Gruptan çık ---
     $("#btn-leave-group").click(() => {
         const groupName = $inputGroupName.val().trim();
         if (!groupName) {
@@ -154,7 +155,7 @@
             .catch(err => console.error("Gruptan çıkma hatası:", err));
     });
 
-    // Gruba mesaj gönderme
+    // --- Gruba mesaj gönder ---
     $("#btn-send-message-group").click(() => {
         const groupName = $inputGroupName.val().trim();
         if (!groupName) {
@@ -170,5 +171,12 @@
                 .catch(err => console.error("Gruba mesaj gönderme hatası:", err));
         }
     });
+
+    $("#btn-send-complextype-all-client").click(function () {
+        const product = { id: 1, name: "product" };  // JavaScript nesnesi böyle tanımlanır
+        connection.invoke(BroadcastTypedMessageToAllClient, product).catch(err =>
+            console.error("hata", err))
+        console.log("product gönderildi");
+    })
 
 });
